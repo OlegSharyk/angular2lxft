@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-md-12"><h1>Notes Angular 2 App</h1></div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col col-md-6">
+            <notes [section]="section"></notes>
+        </div>
+        <div class="col col-md-6">
+            <sections (sectionChanged)="setSection($event)"></sections>
+        </div>
+    </div>
+</div>
+
+
+
+
